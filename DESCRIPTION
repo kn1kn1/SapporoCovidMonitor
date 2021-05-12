@@ -1,13 +1,12 @@
-Package: TokyoCovidMonitor
-Title: An RStan-based package for monitoring COVID-19 cases in Tokyo
+Package: SapporoCovidMonitor
+Title: An RStan-based package for monitoring COVID-19 cases in Sapporo
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Takashi J",
-           family = "Ozaki",
+    person(given = "Kenichi",
+           family = "Kanai",
            role = c("aut", "cre"),
-           email = "ozt.situ@gmail.com",
-           )
-Description: Fitting a Baysian structure time series model to daily COVID-19 positive cases of Tokyo, for monitoring
+           email = "kn1kn1@users.noreply.github.com")
+Description: Fitting a Baysian structure time series model to daily COVID-19 positive cases of Sapporo, for monitoring
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
