@@ -14,9 +14,9 @@ stanBstsFit <- function(num = NULL, lastday = NULL){
   nval <- num
 
   # Download the raw CSV file
-  # https://ckan.pf-sapporo.jp/datastore/dump/b83606f6-3aa2-4e0c-8a1a-509dd36be2ae
-  # https://ckan.pf-sapporo.jp/api/3/action/datastore_search?resource_id=b83606f6-3aa2-4e0c-8a1a-509dd36be2ae&limit=32000&records_format=csv
-  d <- read.csv("https://ckan.pf-sapporo.jp/datastore/dump/b83606f6-3aa2-4e0c-8a1a-509dd36be2ae")
+  # https://ckan.pf-sapporo.jp/datastore/dump/7dc6b374-ac73-4df4-b899-ea6c8cac3e32
+  # https://ckan.pf-sapporo.jp/api/3/action/datastore_search?resource_id=7dc6b374-ac73-4df4-b899-ea6c8cac3e32&limit=32000&records_format=csv
+  d <- read.csv("https://ckan.pf-sapporo.jp/datastore/dump/7dc6b374-ac73-4df4-b899-ea6c8cac3e32")
   d3 <- data.frame(day = d[, 2], num = d[, 3])
   d3$day <- as.Date(d3$day) # Put date into Date class
 
